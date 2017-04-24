@@ -10,7 +10,7 @@
 
     <Grid>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Flagi Europy #2" VerticalAlignment="Top" Height="86" Width="270" FontSize="36" Foreground="#FF0DBAE0"/>
-        <ListBox x:Name="flagList" HorizontalAlignment="Left" Height="529" Margin="0,100,0,0" VerticalAlignment="Top" Width="380" Background="Black">
+        <ListBox x:Name="flagList" HorizontalAlignment="Left" Height="529" Margin="0,96,0,0" VerticalAlignment="Top" Width="380" Background="Black">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal" Width="250" Height="160" Tapped="StackPanel_Tapped" HorizontalAlignment="Center">
